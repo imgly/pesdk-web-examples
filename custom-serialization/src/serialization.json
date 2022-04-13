@@ -1,0 +1,72 @@
+{
+  "version": "3.9.0",
+  "meta": {
+    "platform": "html5",
+    "version": "5.10.0",
+    "createdAt": "2021-02-24T13:29:15.612Z"
+  },
+  "image": { "width": 5295, "height": 6619 },
+  "operations": [
+    {
+      "type": "sprite",
+      "options": {
+        "sprites": [
+          {
+            "type": "text",
+            "options": {
+              "position": { "x": 0.12250303924797426, "y": 0.5887275660415404 },
+              "rotation": -1.5707963267948966,
+              "flipVertically": false,
+              "flipHorizontally": false,
+              "fontIdentifier": "imgly_font_open_sans_bold",
+              "fontSize": 0.09999999999999999,
+              "maxWidth": 0.9781701629102819,
+              "text": "TOUCH THE SKY",
+              "lineHeight": 1,
+              "color": { "rgba": [0, 0, 0, 1] },
+              "backgroundColor": { "rgba": [0, 0, 0, 0] },
+              "alignment": "center"
+            }
+          },
+          {
+            "type": "sticker",
+            "options": {
+              "position": { "x": 0.7325482112145201, "y": 0.23280903407945125 },
+              "dimensions": {
+                "x": 0.31267659843501866,
+                "y": 0.3126765984350188
+              },
+              "rotation": 0,
+              "flipVertically": false,
+              "flipHorizontally": false,
+              "identifier": "imgly_sticker_shapes_badge_28",
+              "alpha": 1,
+              "tintColor": {
+                "rgba": [1, 0.12941176470588237, 0.5333333333333333, 1]
+              },
+              "tintMode": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "options": {
+              "position": { "x": 0.740110754668651, "y": 0.2267594273038917 },
+              "rotation": 0,
+              "flipVertically": false,
+              "flipHorizontally": false,
+              "fontIdentifier": "imgly_font_open_sans_bold",
+              "fontSize": 0.08843296781039972,
+              "maxWidth": 0.4411555705211691,
+              "text": "NOV.",
+              "lineHeight": 1,
+              "color": { "rgba": [1, 1, 1, 1] },
+              "backgroundColor": { "rgba": [0, 0, 0, 0] },
+              "alignment": "center"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "assetLibrary": { "assets": { "stickers": [] } }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "integrate-with-vanilla-js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx -y -S serve",
+    "ci:e2e:start": "npx serve . -l 8080",
+    "ci:e2e:command": "cypress run --browser chrome --headless --project ./tests/e2e"
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "start-server-and-test": "^1.14.0"
+  }
+}

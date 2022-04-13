@@ -1,0 +1,25 @@
+{
+  "name": "integrate-with-next-js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ci:e2e:start": " yarn run build && next start -p 8080",
+    "ci:e2e:command": "cypress run --browser chrome --headless --project ./tests/e2e"
+  },
+  "dependencies": {
+    "next": "^12.0.8",
+    "photoeditorsdk": "^5.16.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.0.8",
+    "cypress": "^9.4.1",
+    "eslint-config-next": "^12.0.8",
+    "start-server-and-test": "^1.14.0"
+  }
+}

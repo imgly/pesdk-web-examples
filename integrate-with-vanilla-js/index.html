@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Integrate PhotoEditor SDK with Vanilla JS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://unpkg.com/react@16.13.1/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom-server.browser.production.min.js"></script>
+    <script src="https://unpkg.com/styled-components@4.4.1/dist/styled-components.min.js"></script>
+    <script src="https://unpkg.com/photoeditorsdk@5.15.0/umd/no-polyfills.js"></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      html {
+        overscroll-behavior-x: contain;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="editor" style="position: relative; width: 100vw; height: 100vh;"></div>
+    <script>
+      PhotoEditorSDK.PhotoEditorSDKUI.init({
+        container: '#editor',
+        license: '',
+        image: "./example.jpg",
+        assetBaseUrl:
+          "https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets",
+      });
+    </script>
+  </body>
+</html>
