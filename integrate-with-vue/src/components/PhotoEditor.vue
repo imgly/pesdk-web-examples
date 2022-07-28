@@ -1,5 +1,5 @@
 <template>
-  <div id="editor" style="width: 100vw; height:100vh; position: relative" />
+  <div id="editor" style="width: 100vw; height: 100vh; position: relative" />
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default defineComponent({
         image: "./example.jpg",
         container: "#editor",
         assetBaseUrl:
-          "https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets",
+          "https://cdn.img.ly/packages/imgly/photoeditorsdk/5.17.0/assets",
       });
 
       editor.on(UIEvent.EXPORT, (result) => {

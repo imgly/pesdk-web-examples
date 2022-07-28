@@ -6,7 +6,7 @@ const Container = styled.div`
   margin-bottom: 10px;
   &:nth-child(2n + 1) {
     margin-right: ${props =>
-      props.theme.measurements.advancedSpacer}px !important;
+      props.theme.measurements.advancedUISpacer}px !important;
   }
 `;
 

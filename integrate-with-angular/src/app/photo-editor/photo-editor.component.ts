@@ -37,7 +37,7 @@ export class PhotoEditorComponent implements AfterViewInit {
         container: this.container ? this.container.nativeElement : '',
         image: this.src,
         assetBaseUrl:
-          'https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets',
+          'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.17.0/assets',
       });
     } catch (error) {
       console.log(error);

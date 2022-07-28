@@ -7313,11 +7313,6 @@ eslint-plugin-flowtype@^8.0.3:
     lodash "^4.17.21"
     string-natural-compare "^3.0.1"
 
-eslint-plugin-header@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-header/-/eslint-plugin-header-3.1.1.tgz#6ce512432d57675265fac47292b50d1eff11acd6"
-  integrity sha512-9vlKxuJ4qf793CmeeSrZUvVClw6amtpghq3CuWcB5cUNnWHQhgcqy5eF8oVKFk1G3Y/CbchGfEaw3wiIJaNmVg==
-
 eslint-plugin-import@2.25.4, eslint-plugin-import@^2.25.2, eslint-plugin-import@^2.25.3:
   version "2.25.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.25.4.tgz#322f3f916a4e9e991ac7af32032c25ce313209f1"
@@ -12975,10 +12970,10 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-photoeditorsdk@^5.15.0:
-  version "5.15.0"
-  resolved "https://registry.yarnpkg.com/photoeditorsdk/-/photoeditorsdk-5.15.0.tgz#d7cf120c33742ea84293b228072eb009343ff8fe"
-  integrity sha512-+e9kWc8VFmlUvmbpIijUR54wplLUuH+1uYnQf2GcPCxRejHKEC2rn9PCM1HMPUoLNDSrPoqP5ypS5w17hU/LjQ==
+photoeditorsdk@^5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/photoeditorsdk/-/photoeditorsdk-5.16.0.tgz#b7547260f18ba8be119850dacd1fa26ce3c2a0ae"
+  integrity sha512-nNd0G5QJ9I1qUoCr2xjYiUgsNH4vC5hCbKUrWxcko9Ll1R4ffS5C7KegvRVSpCkK9H33/OrcK1+O8G53UqSGwg==
 
 picocolors@^0.2.1:
   version "0.2.1"

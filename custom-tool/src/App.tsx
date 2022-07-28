@@ -12,7 +12,8 @@ export const App: React.FC = () => {
     layout: 'basic',
     license: '',
     image: `${window.location.origin}/example.jpg`,
-    assetBaseUrl: 'https://cdn.jsdelivr.net/npm/photoeditorsdk@latest/assets',
+    assetBaseUrl:
+      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.17.0/assets',
     // include custom tool into tools list
     tools: [Tool.CUSTOM, Tool.TRANSFORM],
     // provide tool configuration
