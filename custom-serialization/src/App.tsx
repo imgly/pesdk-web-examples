@@ -12,7 +12,7 @@ export const App: React.FC = () => {
     license: '',
     image: `${window.location.origin}/example.jpg`,
     assetBaseUrl:
-      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.17.4/assets',
+      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.17.5/assets',
     library: {
       enableUpload: true,
       enableWebcam: true,
