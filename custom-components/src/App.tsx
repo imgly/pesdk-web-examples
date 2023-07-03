@@ -12,7 +12,7 @@ export const App: React.FC = () => {
     license: '',
     image: `${window.location.origin}/example.jpg`,
     assetBaseUrl:
-      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.17.5/assets',
+      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.18.0/assets',
     custom: {
       components: {
         advancedUIItemCard: ItemCard,
