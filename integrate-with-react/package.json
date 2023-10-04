@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "photoeditorsdk": "^5.18.0",
+    "photoeditorsdk": "^5.19.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ci:e2e:start": "yarn run build && npx serve -s build -l 8080",
-    "ci:e2e:command": "cypress run --browser chrome --headless --project ./tests/e2e"
+    "ci:e2e:command": "cypress run --browser chrome --headed --project ./tests/e2e"
   },
   "browserslist": {
     "production": [

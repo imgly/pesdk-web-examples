@@ -8,7 +8,7 @@ export function PhotoEditor() {
       license: '',
       image: './example.jpg',
       assetBaseUrl:
-        'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.18.0/assets',
+        'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.0/assets',
     });
   };
 

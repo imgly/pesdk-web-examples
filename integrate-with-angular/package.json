@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "ci:e2e:start": "yarn run build && npx serve -s dist/integrate-with-angular -l 8080",
-    "ci:e2e:command": "cypress run --browser chrome --headless --project ./tests/e2e"
+    "ci:e2e:command": "cypress run --browser chrome --headed --project ./tests/e2e"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~13.2.1",
     "@angular/router": "~13.2.1",
     "cypress": "^9.4.1",
-    "photoeditorsdk": "^5.18.0",
+    "photoeditorsdk": "^5.19.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rxjs": "~7.5.2",
