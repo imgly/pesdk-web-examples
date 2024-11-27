@@ -23,7 +23,7 @@ export default defineComponent({
         image: "./example.jpg",
         container: "#editor",
         assetBaseUrl:
-          "https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.1/assets",
+          "https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.2/assets",
       });
 
       editor.on(UIEvent.EXPORT, (result) => {

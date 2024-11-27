@@ -8,7 +8,7 @@ export const PhotoEditor = () => {
       license: '',
       image: './example.jpg',
       assetBaseUrl:
-        'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.1/assets',
+        'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.2/assets',
     });
   };
 
