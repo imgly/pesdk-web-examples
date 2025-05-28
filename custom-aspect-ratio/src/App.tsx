@@ -10,7 +10,7 @@ export const App: React.FC = () => {
     license: '',
     image: `${window.location.origin}/example.jpg`,
     assetBaseUrl:
-      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.3/assets',
+      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.4/assets',
     tools: [Tool.TRANSFORM, Tool.FILTER, Tool.TEXT, Tool.ADJUSTMENT],
     defaultTool: Tool.TRANSFORM,
     transform: {
