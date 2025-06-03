@@ -8,7 +8,7 @@ export const App: React.FC = () => {
     license: '',
     image: `${window.location.origin}/example.jpg`,
     assetBaseUrl:
-      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.6/assets',
+      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.7/assets',
     library: {
       enableUpload: true,
       enableWebcam: true,
