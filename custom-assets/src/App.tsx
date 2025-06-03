@@ -11,7 +11,7 @@ export const App: React.FC = () => {
     license: '',
     image: `${window.location.origin}/example.jpg`,
     assetBaseUrl:
-      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.5/assets',
+      'https://cdn.img.ly/packages/imgly/photoeditorsdk/5.19.6/assets',
     sticker: {
       categories: [
         {
