@@ -67,7 +67,7 @@
     "react/jsx-curly-newline": "off",
     // end prettier conflict,
     "import/prefer-default-export": "off",
-    "import/no-default-export": "error",
+    "import/no-default-export": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
